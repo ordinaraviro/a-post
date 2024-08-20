@@ -63,7 +63,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./app-name/server/app/
+          path: ./app-name/.next/server/app/
 
 
   # Deployment job
